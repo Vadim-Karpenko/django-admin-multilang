@@ -32,9 +32,9 @@ A very simple Django application that adds the ability on the admin page to sele
   
   </li>
   <li>
-    Add to urlpatterns.py, where is located settings.py, this followed line:
+    In urlpatterns.py where is located settings.py, add this followed line:
   
-        urlpattern += [
+        urlpatterns += [
             path('', include('admin_multilanguage.urls', namespace="admin_multilanguage")),
         ]
   </li>
@@ -54,7 +54,7 @@ A very simple Django application that adds the ability on the admin page to sele
   </li>
   
   <li>
-    Make sure USE_I18N and sessions enabled as well
+    Make sure I18N and Sessions enabled as well
   </li>
 </ul>
 
