@@ -1,9 +1,5 @@
 .idea
-*.pyc
-__pycache__
 myvenv
 db.sqlite3
 .DS_Store
 .git
-django_admin_multilang.egg-info
-media
