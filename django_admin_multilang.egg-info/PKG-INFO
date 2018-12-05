@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
 Name: django-admin-multilang
-Version: 1.0.1
+Version: 1.0.2
 Summary: A very simple Django application that adds the ability on the admin page to select a language manually.
 Home-page: https://github.com/Vadim-Karpenko/django-admin-multilang
 Author: Karpenko Vadim
 Author-email: j.rell@protonmail.com
 License: UNKNOWN
 Description: # django-admin-multilang
-        A very simple project that adds the ability on the admin page to select a language manually.
+        A very simple Django application that adds the ability on the admin page to select a language manually.
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

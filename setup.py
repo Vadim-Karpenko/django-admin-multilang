@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
      name='django-admin-multilang',  
-     version='1.0.1',
+     version='1.0.2',
      author="Karpenko Vadim",
      author_email="j.rell@protonmail.com",
      description="A very simple Django application that adds the ability on the admin page to select a language manually.",
