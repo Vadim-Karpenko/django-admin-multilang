@@ -7,7 +7,7 @@
         {% if LANGUAGES %}
             {% for lang_info in LANGUAGES %}
                 {% if lang_info.0 != request.LANGUAGE_CODE %}
-                    <a href="{% url "admin-multilanguage:change_language" %}?language={{ lang_info.0 }}&current_path={{ request.path }}">{{ lang_info.0 }}</a> /
+                    <a href="{% url "admin_multilanguage:change_language" %}?language={{ lang_info.0 }}&current_path={{ request.path }}">{{ lang_info.0 }}</a> /
                 {% endif %}
             {% endfor %}
 
