@@ -52,6 +52,10 @@ A very simple Django application that adds the ability on the admin page to sele
         # language to select by default
         LANGUAGE_CODE = 'en'
   </li>
+  
+  <li>
+    Make sure USE_I18N and sessions enabled as well
+  </li>
 </ul>
 
 PROFFIT!
