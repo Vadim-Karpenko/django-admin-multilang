@@ -43,6 +43,7 @@ A very simple Django application that adds the ability on the admin page to sele
     Configure in settings.py which languages you want to support (Example):
     
         from django.utils.translation import ugettext_lazy as _
+        
         LANGUAGES = (
             ('lv', _("Latvian")),
             ('en', _("English")),
@@ -51,6 +52,16 @@ A very simple Django application that adds the ability on the admin page to sele
         
         # language to select by default
         LANGUAGE_CODE = 'en'
+  </li>
+  
+  <li>
+    Also you need to add this line to MIDDLEWARE to enable localization based on sessions in Django:
+  
+        MIDDLEWARE = [
+             ...
+            'django.middleware.locale.LocaleMiddleware',
+             ...
+        ]
   </li>
   
   <li>
