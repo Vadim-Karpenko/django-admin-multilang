@@ -1,2 +1,2 @@
 # django-admin-multilang
-A really simple project that add availability in admin page to select language manually.
+A very simple project that adds the ability on the admin page to select a language manually.
