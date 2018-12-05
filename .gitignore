@@ -5,5 +5,5 @@ myvenv
 db.sqlite3
 .DS_Store
 .git
-*.egg-info
+django_admin_multilang.egg-info
 media
