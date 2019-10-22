@@ -68,5 +68,3 @@ A very simple Django application that adds the ability on the admin page to sele
     Make sure I18N and Sessions enabled as well
   </li>
 </ul>
-
-PROFFIT!
