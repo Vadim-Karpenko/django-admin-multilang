@@ -3,6 +3,7 @@ from django.shortcuts import redirect
 from django.conf import settings
 from django.urls import reverse
 from django.core.exceptions import ValidationError
+from django.utils.translation import activate
 
 class ChangeLanguageView(View):
     """
@@ -28,6 +29,7 @@ class ChangeLanguageView(View):
         for setting_language in settings.LANGUAGES:
             if language.lower() == setting_language[0].lower():
                 request.session['_language'] = language
+                activate(language)
                 if current_path:
                     return redirect(current_path)
         # If no current_path specified, user will be redirected to the admin main page
